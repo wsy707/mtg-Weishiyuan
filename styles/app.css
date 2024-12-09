@@ -1,0 +1,66 @@
+.bodyClass{
+    padding: 0;
+    overflow: hidden;
+}
+.contentContainer{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.cardListContainer {
+    min-width: 280px;
+    background-color: aqua;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: black 1px solid;
+}
+
+.mainContainer {
+    flex-grow: 1;
+    height: 100%;
+    padding-left: 12px;
+}
+
+.deckContainer {
+    height: 50%;
+    background-color: azure;
+}
+
+.cardContainer{
+    height: 50%;
+    background-color: dodgerblue;
+}
+
+.statsContainer {
+    min-width: 500px;
+    height: 100%;
+    padding-left: 12px;
+}
+
+.manaColorContainer {
+    height: 50%;
+}
+
+.manaCostContainer {
+    height: 50%;
+}
+
+.sectionLeadingLabel {
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+
+#manaCostWidgetContainer {
+    display: flex;
+    justify-items: center;
+    padding-left: 20px;
+}
+
+#manaColorWidgetContainer {
+    display: flex;
+    justify-items: center;
+    padding-left: 20px;
+}

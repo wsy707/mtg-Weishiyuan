@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        MTG Deck Builder Demo Project
+    </title>
+    <meta charset="UTF-8" />
+
+    <script src="src/index.js" type="module"></script>
+    <link href="styles/app.css" rel="stylesheet">
+</head>
+<body class="bodyClass">
+    <div class="contentContainer">
+
+        <!-- 卡片列表容器 -->
+        <div class="cardListContainer">
+            <p class="sectionLeadingLabel">
+                Cards
+            </p>
+            <div id="cardListContainer">
+                <!-- 卡片列表会动态插入到这里 -->
+            </div>
+        </div>
+
+        <div class="mainContainer">
+            <!-- Deck View 容器 -->
+            <div class="deckContainer" id="deckViewContainer">
+                <p class="sectionLeadingLabel">Deck</p>
+            </div>
+
+            <!-- 卡片详情容器 -->
+            <div class="cardContainer" id="cardViewContainer">
+                <!-- 卡片详情会动态插入到这里 -->
+            </div>
+        </div>
+
+        <div class="statsContainer">
+            <div class="manaCostContainer">
+                <p class="sectionLeadingLabel">
+                    Mana Cost Stats
+                </p>
+                <div id="manaCostWidgetContainer">
+                    <!-- ManaCost 小部件 -->
+                </div>
+            </div>
+
+            <div class="manaColorContainer">
+                <p class="sectionLeadingLabel">
+                    Mana Color Stats
+                </p>
+                <div id="manaColorWidgetContainer">
+                    <!-- ManaColor 小部件 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
